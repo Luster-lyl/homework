@@ -7,7 +7,7 @@ import Question from "../../pages/question/question"
 import Personal from "../../pages/personal/personal"
 import Resource from "../../pages/resource/resource"
 
-require("./header.css")
+import styles from "./header.modules.css"
 
 export default class HeaderBar extends Component{
 
@@ -18,10 +18,10 @@ export default class HeaderBar extends Component{
         return(
          <div>
            <HashRouter basename="main">
-            <Link  className="nav-link" to="/personal">personal/</Link>
-           <Link  className="nav-link" to="/schoolwork">schoolwork/</Link>
-           <Link  className="nav-link" to="/question">question/</Link>
-           <Link className="nav-link" to="/resource">resource</Link>
+            <Link  className={styles.navLink} to="/personal">personal/</Link>
+           <Link  className={styles.navLlink} to="/schoolwork">schoolwork/</Link>
+           <Link  className={styles.navLlink} to="/question">question/</Link>
+           <Link className={styles.navLlink} to="/resource">resource</Link>
            </HashRouter>
            </div>
     

@@ -7,12 +7,13 @@ import Question from "../question/question"
 import Personal from "../personal/personal"
 import Resource from "../resource/resource"
 
-
+import {GlobalStyle} from "../../globalStyle"
 
 export default class Main extends Component {
     render(){
         return(
             <div>
+                <GlobalStyle/>
                 <Switch>
                    <Route path="/main/personal" component={Personal}/>
                     <Route path="/main/schoolwork" component={SchoolWork}/>
