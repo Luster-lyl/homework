@@ -7,7 +7,7 @@ import Question from "../../pages/question/question"
 import Personal from "../../pages/personal/personal"
 import Resource from "../../pages/resource/resource"
 
-import styles from "./header.modules.css"
+import styles from "./header.module.css"
 
 export default class HeaderBar extends Component{
 
