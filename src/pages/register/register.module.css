@@ -1,18 +1,56 @@
 .logoIcon{
-    margin-top:218px ;
     margin-bottom: 58px;
-    margin-left: 727px;
+    padding-left: 86px;
 }
 .registerBg{
-    width: 100%;
+    width:526px;
+    height: 612px;
     margin: 0;
     padding: 0;
+
+}
+.frontBg{
+    display: flex;
+    justify-content: center;
+   
+}
+.registerForm{
+    margin: 34px 38px;
 }
 .registerForm span{
+    position: relative;
     display: block;
-    font: 24px/45px;
+    font-size: 24px;
+    color: #040404;
+   line-height: 60px;
 }
+.registerForm span input{
+   position: absolute;
+    font-size: 24px;
+    line-height: 60px;
+    right: 0;
+}
+.password,.registerName,.college,.registerAccount,.checkWord{
 
-.password{
+}
+.loginBtn{
 
+}
+.registerBtn{
+
+}
+.centerContent{
+    margin-top:218px;
+
+}
+.conformBtn{
+    margin-left:38px;
+    outline: none;
+    border: none;
+    width: 467px;
+    height: 43px;
+    color:#ffffff;
+    font-size: 24px;
+    text-align: center;
+    
 }
