@@ -1,3 +1,50 @@
 .navLink{
     text-decoration: none;
 }
+
+
+.headerWrapper{
+
+   background: url('../../assets/imgs/header_bg.png') repeat-x;
+   height: 80px;
+    
+    width:100%;
+}
+.headerContent{
+    margin: 0 auto;
+    width:1270px;
+    position: relative;
+    height: 80px;
+
+
+
+}
+.icon{
+    margin: 0;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+}
+
+.navList{
+    display: inline-block;
+    
+    margin-left: 300px;
+   
+   
+}
+.userIcon{
+    display: inline-block;
+    margin-right: 0;
+    position: absolute;
+    right: 0;
+
+}
+.navBox{
+   
+ display: flex;
+justify-content: space-between;
+width: 505px;
+ 
+
+}

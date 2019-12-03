@@ -11,7 +11,7 @@ export default class Question extends Component {
         return(
             <div>
                 <GlobalStyle/>
-                <HeaderBar></HeaderBar>
+             
                 Question
             </div>
         )

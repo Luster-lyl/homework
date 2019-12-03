@@ -10,7 +10,7 @@ export default class SchoolWork extends Component {
         return(
             <div>
                 <GlobalStyle/>
-                <HeaderBar></HeaderBar>
+               
                 SchoolWork
             </div>
         )

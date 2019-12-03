@@ -1,0 +1,28 @@
+.search-bg{
+    background: url('../../assets/imgs/蓝搜索条.png') no-repeat;
+    width: 1259px;
+    display:flex;
+    justify-content: center;
+  
+}
+.search-wrapper{
+    background: url('../../assets/imgs/白搜索条.png') no-repeat;
+    width: 735px;
+    margin:20px auto;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    margin: 18px auto;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    
+}
+.search-input{
+    width: 662px;
+    height: 36px;
+}
+.search-icon{
+    margin-top:8px;
+}
