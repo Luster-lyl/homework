@@ -1,27 +1,17 @@
 import React, {Component} from 'react'
-import axios from "axios"
-
-
+// import axios from "axios"
 
 import Background from "../../assets/imgs/index-bg.png"
-
 import styles from "./login.module.css"
-
 import {GlobalStyle} from "../../globalStyle"
 import {Link}from "react-router-dom"
-
-
-
-
 import store from '../../store/index'
-
 
 const frontBg = {
     width:"100%",
     height:"1080px",
     backgroundImage:`url(${Background})`
 };
-
 
 class LogIn extends Component{
     constructor(props){
@@ -34,9 +24,6 @@ class LogIn extends Component{
         this.storeChange = this.storeChange.bind(this)  //转变this指向
          store.subscribe(this.storeChange)
     }
-
-
-
 
     render(){
         return (
@@ -56,12 +43,8 @@ class LogIn extends Component{
                 </div>
                 <div className={styles.options}>
                 
-                
-                        <div className={styles.loginLine}><img src={require('../../assets/imgs/下划线 拷贝.png')}/></div>
-                    
-                       
-    
-            
+                    <div className={styles.loginLine}><img src={require('../../assets/imgs/下划线 拷贝.png')}/></div>
+                  
                  </div>
             
                 <div class={styles.inputArea}>

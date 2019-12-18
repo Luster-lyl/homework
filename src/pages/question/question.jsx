@@ -1,7 +1,7 @@
 import  React,{Component} from "react"
 
 
-import HeaderBar from "../../components/header/header"
+// import HeaderBar from "../../components/header/header"
 
 
 import {GlobalStyle} from "../../globalStyle"

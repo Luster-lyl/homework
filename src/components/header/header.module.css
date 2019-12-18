@@ -4,47 +4,98 @@
 
 
 .headerWrapper{
-
-   background: url('../../assets/imgs/header_bg.png') repeat-x;
-   height: 80px;
-    
-    width:100%;
-}
-.headerContent{
-    margin: 0 auto;
-    width:1270px;
-    position: relative;
+    background-color: #ffffff;
     height: 80px;
-
-
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
-.icon{
-    margin: 0;
-    display: inline-block;
-    position: absolute;
+
+.headerContent{
+    width: 1780px;
+    position: relative;
     top: 10px;
 }
 
+.icon{
+    display: inline-block;
+    position: relative;
+}
+.iconImg{
+    width: 256px;
+    height: 58px;
+}
+
+
+
+/* ！----更新-----！ */
+.jumpLogin{
+    display: inline-block;
+    position: relative;
+    left: 44px;
+    top: -15px;
+}
+
+.loginBtn{
+    /* width: 90px;
+    height: 24px; */
+    width: 110px;
+    height: 30px;
+    border: 2px solid #a8a9ab;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.loginBtn li{
+    display: inline-block;
+    line-height: 30px;
+}
+
+.loginBtnLink{
+    text-decoration: none;
+    font-size: 20px;
+    color: #a8a9ab;
+}
+
+
+/* ！----更新-----！ */
+
+
+
 .navList{
     display: inline-block;
-    
-    margin-left: 300px;
-   
-   
-}
-.userIcon{
-    display: inline-block;
-    margin-right: 0;
-    position: absolute;
-    right: 0;
-
+    position: relative;
+    left: 780px;
 }
 .navBox{
-   
- display: flex;
-justify-content: space-between;
-width: 505px;
- 
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    font-size: 24px;
+    position: relative;
+    top: -12px;
 }
+.navBoxLinks{
+    color:#4e5054;
+    margin: 0 34px 0;
+    /* border-bottom: #000000 solid 1px  ; */
+    /* color="#282828" */
+}
+
+.navBoxLinksImg{
+    display: inline-block;
+    color:#ffffff;
+    padding-top: 40px;
+    padding-left: 68px;
+    width: 200px;
+    height: 72px;
+    background: url(../../assets/imgs/personPage-button.png) no-repeat;
+    background-size: 175px 84px;
+    background-position: 0 16px;
+    /* background-size: 150px 72px; */
+    /* width: 100px;
+    150px 72px
+    height: 48px; */
+}
+

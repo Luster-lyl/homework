@@ -1,16 +1,17 @@
 import React, { Component } from "react"
 
 
-import HeaderBar from "../../components/header/header"
+// import HeaderBar from "../../components/header/header"
 import "./resource.css"
 
 import { GlobalStyle } from "../../globalStyle"
 
 import Search from '../../components/search/search'
 
-import Background from'../../assets/imgs/main-bg.png'
+// import Background from'../../assets/imgs/main-bg.png'
 
 import store from '../../store/index'
+import HeaderBar from "../../components/header/header"
 
 function Arrow(props) {
     if(props.clicked){
@@ -35,6 +36,7 @@ export default class Resource extends Component {
         return (
             <div>
                 <GlobalStyle />
+                <HeaderBar/>
                 <Search />
                 <div className="resource-content">
                     <div className='left-nav'>

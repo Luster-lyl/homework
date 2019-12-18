@@ -1,6 +1,6 @@
-.logoIcon{
+/* .logoIcon{
     
-}
+} */
 .registerBg{
     width:526px;
     height: 612px;
@@ -26,10 +26,10 @@
     margin-left: 334px;
 }
 
-
+/* 
 .password,.registerName,.college,.registerAccount,.checkWord{
 
-}
+} */
 
 .loginBtn,.registerBtn{
     display: flex;
